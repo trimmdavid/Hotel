@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <title>HOTEL DAYO</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js"
+          crossorigin="anonymous"></script>
+          <link rel="icon" href="first.jpeg" type="image/png">
+    </head>
+    <body>
+      
+         <!--header -->
+    <header class="header" id="header"
+          <div class="head-top">
+             <div class="site-name">
+                <span>DAYO HTL</span>
+             </div>  
+           <div class="site-nav">
+              <span id="nav-btn">MENU <i class="fas fa-bars"></i></span>
+           </div>
+          </div>
+          
+
+          <div  class="head-buttom flex">
+             <h2>NICE AND COMFORTABLE PLACE TO STAY</h2>
+             <P>Driving between Stockholm and Oslo, this hotel situated next to the modern conference centre is a good place to stay when you are driving between Stockholm and Oslo.
+               Nice polite helpful staff, very clean comfortable rooms, very comfortable bed( a bit narrow, but I,m just to king size)</P>
+               <button type="button" class=" head-btn">GET STARTED</button>
+          </div>
+    </header>
+    <!--end of header -->
+ 
+    <!--side navbar-->
+    <div class="sidenav" id="sidenav">
+       <span class="cancel-btn" id="cancel-btn">
+          <i class="fas fa-times"></i>
+       </span>
+
+       <ul class="navbar">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#services">services</a></li>
+          <li><a href="#rooms">rooms</a></li>
+          <li><a href="#customers">customers</a></li>
+       </ul>
+       <button class="btn sign-up">sign up</button>
+       <button class="btn log-in">log in</button>
+    </div>
+<!--end of side navbar-->
+
+<!--fulscreen modal-->
+<div id="modal"></div>
+<!--end of fullscreen modal-->
+
+<!--body content-->
+<section class="services sec-width" id="services">
+   <div class="title">
+      <h2>services</h2>
+   </div>
+   <div class="services-container">
+      <!--single service-->
+      <article class="service">
+         <div class="service-icon">
+            <span>
+               <i class="fas fa-utensils"></i>
+            </span>
+         </div>
+         <div class="service-content">
+            <h2>Food service/ Food runner</h2>
+            <p>The foodservice (US English) or catering (British English) industry includes
+                the businesses, institutions, and companies which prepare meals outside the home. 
+                It includes restaurants, school and hospital cafeterias, catering operations, and many other formats. </p>
+             <button type="button" class="btn">Know more</button>
+         </div>
+      </article>
+      <!--end of single service-->
+       <!--single service-->
+       <article class="service">
+         <div class="service-icon">
+            <span>
+               <i class="fas fa-swimming-pool"></i>
+            </span>
+         </div>
+         <div class="service-content">
+            <h2>Refreshment</h2>
+            <p>The foodservice (US English) or catering (British English) industry includes 
+               the businesses, institutions, and companies which prepare meals outside the home.
+                It includes restaurants, school and hospital cafeterias, catering operations, and many other formats. </p>
+             <button type="button" class="btn">Know more</button>
+         </div>
+      </article>
+      <!--end of single service-->
+       <!--single service-->
+       <article class="service">
+         <div class="service-icon">
+            <span>
+               <i class="fas fa-broom"></i>
+            </span>
+         </div>
+         <div class="service-content">
+            <h2>Housekeeping</h2>
+            <p>The foodservice (US English) or catering (British English) industry includes 
+               the businesses, institutions, and companies which prepare meals outside the home.
+                It includes restaurants, school and hospital cafeterias, catering operations, and many other formats. </p>
+             <button type="button" class="btn">Know more</button>
+         </div>
+      </article>
+      <!--end of single service-->
+       <!--single service-->
+       <article class="service">
+         <div class="service-icon">
+            <span>
+               <i class="fas fa-door-closed"></i>
+            </span>
+         </div>
+         <div class="service-content">
+            <h2>Room security</h2>
+            <p>The foodservice (US English) or catering (British English) industry includes 
+               the businesses, institutions, and companies which prepare meals outside the home.
+                It includes restaurants, school and hospital cafeterias, catering operations, and many other formats. </p>
+             <button type="button" class="btn">Know more</button>
+         </div>
+      </article>
+      <!--end of single service-->
+   </div>
+</section>
+
+  <div class="book">
+     <form class="book-form">
+        <div class="form-item">
+           <label for="checkin-date">Check In date: </label>
+           <input type="date" id="checkin-date">
+        </div>
+        <div class="form-item">
+         <label for="checkout-date">Check Out date: </label>
+         <input type="date" id="checkout-date">
+      </div>
+      <div class="form-item">
+        <label for="adult">Adults:</label>  
+        <input type="number" min="1" value="1" id="adult">
+      </div>
+      <div class="form-item">
+         <label for="children">Children:</label>  
+         <input type="number" min="1" value="1" id="children">
+       </div>
+       <div class="form-item">
+         <label for="rooms">Rooms:</label>  
+         <input type="number" min="1" value="1" id="rooms">
+       </div>
+       <div class="form-item">
+          <input type="submit" class="btm" value="Book Now">
+       </div>
+     </form> 
+  </div>
+
+  <section class="rooms sec-width" id="rooms">
+     <div class="title">
+        <h2>rooms</h2>
+     </div>
+     <div class="rooms-container">
+        <!--single room-->
+        <article class="room">
+           <div class="room-image">
+              <img src="room1.jpeg" alt="room image">
+           </div>
+           <div class="room-text">
+              <h3>Luxury Rooms</h3>
+              <ul>
+                 <li>
+                     <i class="fas fa-arrow-alt-circle-right"></i> 
+                     lets just put some writings here for now
+                 </li>
+                 <li>
+                  <i class="fas fa-arrow-alt-circle-right"></i> 
+                  lets just put some writings here for now 2
+              </li>
+              <li>
+               <i class="fas fa-arrow-alt-circle-right"></i> 
+               lets just put some writings here for now 3
+           </li>
+              </ul>
+              <p>Environmental context is known to influence visual space perception, 
+                 but characterizing the underlying mechanisms poses many challenges. 
+                 Natural environments are heterogeneous and complex. Thus, it is difficult not 
+                 only to match environments across experiments and labs, but also to identify relevant scene features out 
+                 of the great multiplicity of possibilities. </p>
+                 <p>These constraints motivate a need for extensive data collection to evaluate candidate hypotheses.
+                     Using rendered scenes and Amazon's Mechanical Turk, the current study provides a means of meeting these challenges,
+                      and focuses specifically on the possible role of room size on distance judgments.</p>
+                      <p class="rate">
+                         <span>$99.00 /</span> Per Night
+                      </p>
+                      <button type="button" class="btn">book now</button>
+           </div>
+        </article>
+        <!--end of single room-->
+        <!--single room-->
+        <article class="room">
+         <div class="room-image">
+            <img src="room2.jpeg" alt="room image">
+         </div>
+         <div class="room-text">
+            <h3>Luxury Rooms</h3>
+            <ul>
+               <li>
+                   <i class="fas fa-arrow-alt-circle-right"></i> 
+                   lets just put some writings here for now
+               </li>
+               <li>
+                <i class="fas fa-arrow-alt-circle-right"></i> 
+                lets just put some writings here for now 2
+            </li>
+            <li>
+             <i class="fas fa-arrow-alt-circle-right"></i> 
+             lets just put some writings here for now 3
+         </li>
+            </ul>
+            <p>Environmental context is known to influence visual space perception, 
+               but characterizing the underlying mechanisms poses many challenges. 
+               Natural environments are heterogeneous and complex. Thus, it is difficult not 
+               only to match environments across experiments and labs, but also to identify relevant scene features out 
+               of the great multiplicity of possibilities. </p>
+               <p>These constraints motivate a need for extensive data collection to evaluate candidate hypotheses.
+                   Using rendered scenes and Amazon's Mechanical Turk, the current study provides a means of meeting these challenges,
+                    and focuses specifically on the possible role of room size on distance judgments.</p>
+                    <p class="rate">
+                       <span>$99.00 /</span> Per Night
+                    </p>
+                    <button type="button" class="btn">book now</button>
+         </div>
+      </article>
+      <!--end of single room-->
+      <!--single room-->
+      <article class="room">
+         <div class="room-image">
+            <img src="room3.jpeg" alt="room image">
+         </div>
+         <div class="room-text">
+            <h3>Luxury Rooms</h3>
+            <ul>
+               <li>
+                   <i class="fas fa-arrow-alt-circle-right"></i> 
+                   lets just put some writings here for now
+               </li>
+               <li>
+                <i class="fas fa-arrow-alt-circle-right"></i> 
+                lets just put some writings here for now 2
+            </li>
+            <li>
+             <i class="fas fa-arrow-alt-circle-right"></i> 
+             lets just put some writings here for now 3
+         </li>
+            </ul>
+            <p>Environmental context is known to influence visual space perception, 
+               but characterizing the underlying mechanisms poses many challenges. 
+               Natural environments are heterogeneous and complex. Thus, it is difficult not 
+               only to match environments across experiments and labs, but also to identify relevant scene features out 
+               of the great multiplicity of possibilities. </p>
+               <p>These constraints motivate a need for extensive data collection to evaluate candidate hypotheses.
+                   Using rendered scenes and Amazon's Mechanical Turk, the current study provides a means of meeting these challenges,
+                    and focuses specifically on the possible role of room size on distance judgments.</p>
+                    <p class="rate">
+                       <span>$99.00 /</span> Per Night
+                    </p>
+                    <button type="button" class="btn">book now</button>
+         </div>
+      </article>
+      <!--end of single room-->
+     </div>
+  </section>
+
+
+  <section class="customers" id="customers">
+     <div class="sec-width">
+        <div class="title">
+           <h2>customers</h2>
+        </div>
+        <div class="customers-container">
+           <!--single customer-->
+           <div class="customer">
+              <div class="rating">
+                 <span><i class="fas fa-star"></i></span>
+                 <span><i class="fas fa-star"></i></span>
+                 <span><i class="fas fa-star"></i></span>
+                 <span><i class="fas fa-star"></i></span>
+                 <span><i class="far fa-star"></i></span>
+              </div>
+              <h3>We Loved it</h3>
+              <p>The service at the Hotel Monteleone was exceptional. ...
+               “Everyone loved the hotel and the food. ...
+               “The hotel staff was beyond exceptional. ...
+               “I am so appreciative that there exists a place that still values customer service throughout the hotel. ...
+               “Thank you again for everything</p>
+               <img src="comments1.jpeg" alt="customer image">
+               <span>Customer Name, Country</span>
+           </div>
+           <!--end of single customer-->
+           <!--single customer-->
+           <div class="customer">
+            <div class="rating">
+               <span><i class="fas fa-star"></i></span>
+               <span><i class="fas fa-star"></i></span>
+               <span><i class="fas fa-star"></i></span>
+               <span><i class="fas fa-star"></i></span>
+               <span><i class="far fa-star"></i></span>
+            </div>
+            <h3>Comfortable Living</h3>
+            <p>The service at the Hotel Monteleone was exceptional. ...
+             “Everyone loved the hotel and the food. ...
+             “The hotel staff was beyond exceptional. ...
+             “I am so appreciative that there exists a place that still values customer service throughout the hotel. ...
+             “Thank you again for everything</p>
+             <img src="comments2.jpeg" alt="customer image">
+             <span>Customer Name, Country</span>
+         </div>
+         <!--end of single customer-->
+         <!--single customer-->
+         <div class="customer">
+            <div class="rating">
+               <span><i class="fas fa-star"></i></span>
+               <span><i class="fas fa-star"></i></span>
+               <span><i class="fas fa-star"></i></span>
+               <span><i class="fas fa-star"></i></span>
+               <span><i class="far fa-star"></i></span>
+            </div>
+            <h3>Nice Place</h3>
+            <p>The service at the Hotel Monteleone was exceptional. ...
+             “Everyone loved the hotel and the food. ...
+             “The hotel staff was beyond exceptional. ...
+             “I am so appreciative that there exists a place that still values customer service throughout the hotel. ...
+             “Thank you again for everything</p>
+             <img src="comments3.jpeg" alt="customer image">
+             <span>Customer Name, Country</span>
+         </div>
+         <!--end of single customer-->
+        </div>
+     </div>
+  </section>
+<!--end of body content-->
+
+    <!--footer-->
+    <footer class="footer">
+       <div class="footer-container">
+          <div>
+             <h2>About Us</h2>
+             <p>The most common type of accommodation in the hotel industry, 
+                a hotel is defined as an establishment that offers overnight accommodation, 
+                meals and other services. They are mainly aimed at travellers or tourists, 
+                although locals may also use them. Hotels provide private rooms, 
+                and almost always have en-suite bathrooms.</p>
+                <ul class="social-icons">
+                   <li class="flex">
+                       <i class="fa fa-twitter fa 2x"></i>
+                     </li>
+                     <li class="flex">
+                        <i class="fa fa-facebook fa 2x"></i>
+                      </li>
+                      <li class="flex">
+                        <i class="fa fa-instagram fa 2x"></i>
+                      </li>
+                </ul>
+          </div>
+          <div>
+              <h2>Useful Links</h2>
+              <a href="#">Blog</a>
+              <a href="#">Rooms</a>
+              <a href="#">Subscription</a>
+              <a href="#">Gift Card</a>
+          </div>
+
+          <div>
+            <h2>Privacy</h2>
+            <a href="#">Career</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+            <a href="#">services</a>
+        </div>
+
+            <div>
+            <h2>Have A Question</h2>
+            <div class="contact-item">
+               <span>
+                  <i class="fas fa-map-marker-alt"></i>
+               </span>
+               <span>
+                  201 fake ST.Mountain View, San Fransisco, California,
+                  USA
+               </span>
+            </div>
+            <div class="contact-item">
+               <span>
+                  <i class="fas fa-phone-alt"></i>
+               </span>
+               <span>
+                  +76890987456 
+               </span>
+            </div>
+            <div class="contact-item">
+               <span>
+                  <i class="fas fa-envelope"></i>
+               </span>
+               <span>
+                 ekundayotemidayo19@gmail.com
+               </span>
+            </div>
+            </div>
+   </div>
+    </footer>
+    <!--end of footer-->
+
+       <script src="script.js"></script>
+    </body>
+</html>
